@@ -1,0 +1,11 @@
+{
+  "name": "jsworkbook",
+  "description": "",
+  "version": "0.0.2",
+  "dependencies": {
+    "brfs": "~1.2.0",
+    "bulkify": "~1.0.2",
+    "browserify-compile-templates": "~0.1.3",
+    "html2js-browserify": "0.0.2"
+  }
+}
