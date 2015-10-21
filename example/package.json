@@ -11,7 +11,6 @@
   "dependencies": {
     "browser-sync": "^2.0.1",
     "browserify": "~5.10.1",
-    
     "clay-model": "0.0.4",
     "clay-model-salesforce-api": "^0.1.6",
     "clay-model-vfr": "0.0.14",
@@ -41,6 +40,7 @@
     "inherits": "^2.0.1",
     "kew": "^0.7.0",
     "minimist": "^1.2.0",
+    "pretty-hrtime": "^1.0.1",
     "querystring": "^0.2.0",
     "rc-switch": "^1.2.1",
     "react": "^0.14.0",
