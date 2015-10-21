@@ -39,7 +39,7 @@ gulp.task( 'staticresource', ['setVarsProduction', 'copy'], function () {
 });
 
 gulp.task( 'dist', ['staticresource'], function () {
-  gulp.src( "./src/htdocs/index.html" )
+  return gulp.src('./src/htdocs/'+process.env.NAME+'.html')
   .pipe( Visualforce({ name: process.env.NAME, open:true }) )
   .pipe(gulp.dest("./dist"))
   .on('error', handleErrors);

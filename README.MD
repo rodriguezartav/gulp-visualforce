@@ -19,6 +19,10 @@ They simplify, up to the point where it's finally posible to build apps. The dev
 
 You can work in 3 modes
 
+* Do this operations within the example folder 
+* Find credentials to log in in the .env file
+
+
 ## Local
 You'll be able to run from localhost, use hot-reload and all that. 
 
