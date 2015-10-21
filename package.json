@@ -11,6 +11,7 @@
   ],
   "author": "Roberto Rodriguez <roberto@clearbit.com>",
   "license": "MIT",
+  "repository":"http://github.com/rodriguezartav/gulp-visualforce",
   "dependencies": {
     "chalk": "^1.1.1",
     "cheerio": "^0.19.0",
