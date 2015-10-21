@@ -22,7 +22,7 @@ You can work in 3 modes
 ## Local
 You'll be able to run from localhost, use hot-reload and all that. 
 
-`gulp --local --env d`
+`gulp --local`
 
 Advanced use cases may use the `--env d` and load your enviroment vars from `.envd` , any entry with an `HTML_` suffix will be replaced on the visualforce page. This can be used to mock apex parameters from a Controller while on localhost. For more info on this please add an issue.
 
