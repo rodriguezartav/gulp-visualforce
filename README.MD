@@ -41,6 +41,7 @@ Deploy all files as a Static Resource and the Visualforce Page is upload.
 ## Note
 * All path transformations between local, semi-local and deploy are handled automatically.
 * When templates, Angular or React is used (paths in javascript ) you need to adjust the url. For this we include the `window._sf.staticResource` which is a variable with the Static Resource URL. This is injected in deploy, points to localhost otherwise.
+* If you add custom components, do it after the HTML Tag for them to work on local
 
 # Lightning Design System
 This examples include the Lightning Design System ready to use.

@@ -9,6 +9,7 @@ var args = minimist(process.argv);
 gulp.task('browserSync', ['build'], function() {
 
 	var opts = BrowserSyncWrapper( {
+		app: process.env.NAME,
     https: true,
     server: {
       baseDir: ['build', 'src'],
