@@ -1,0 +1,5 @@
+<apex:component controller="cbt_ThreeVotApiController" access="public"  >
+<!-- Begin Default Content REMOVE THIS -->
+
+<!-- End Default Content REMOVE THIS -->
+</apex:component>
