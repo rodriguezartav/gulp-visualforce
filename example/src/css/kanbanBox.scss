@@ -1,0 +1,65 @@
+.kanbanBox-header--first{
+	display: block;
+    position: relative;
+    width: 100%;
+    padding: .5rem .5rem .5rem 1.5rem;
+    background: rgb(0, 112, 210);
+    color: #fff;
+    font-size: .875rem;
+    text-align: center;
+    letter-spacing: .9px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: normal;
+    border-radius: 15rem 0 0 15rem;
+}
+
+.kanbanBox-header{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: .5rem .5rem .5rem 1.5rem;
+    background: rgb(0, 112, 210);
+    color: #fff;
+    font-size: .875rem;
+    text-align: center;
+    letter-spacing: .9px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: normal;
+}
+
+.kanbanBox-header:before{
+	content: "";
+	position: absolute;
+	left: -1rem;
+	top: .19rem;
+	display: block;
+	width: 1.85rem;
+	height: 1.85rem;
+	border: 2px solid #fff;
+	border-left: none;
+	border-bottom: none;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.kanbanBox-header--last{
+	border-radius: 0 15rem 15rem 0;
+}
+
+
+.kanbanBox-header-heading{
+	color: #fff;
+	
+	display: inline-block;
+    max-width: calc(100% - 2.5rem);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: normal;
+    vertical-align: middle;
+}
