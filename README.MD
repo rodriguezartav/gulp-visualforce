@@ -15,7 +15,7 @@ They open up the use of all of the gulp eco-system for application development, 
 
 They simplify, up to the point where it's finally posible to build apps. The developer does not have to do anything in order to publish a Visualforce Page and their Static Resources.
 
-One thing is to be able to to push html,css and images; but another is to be able to also work with saleforce data. For this take a look at the example folder and use clay-model clay-model-vfr and clay-model-salesforce-api
+One thing is to be able to to push html,css and images; but another is to be able to also work with saleforce data. For this take a look at the example folder and use (clay-model)[https://github.com/3vot/clay-model] (clay-model-vfr)[https://github.com/3vot/clay-model-vfr] and (clay-model-salesforce-api)[https://github.com/3vot/clay-model-salesforce-api]
 
 # Workflow
 
