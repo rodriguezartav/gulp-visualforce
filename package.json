@@ -1,6 +1,6 @@
 {
   "name": "gulp-visualforce",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Plugin to develop Javascript Apps on Salesforce's Visualforce Technology. Develop locally and automatically deploy static resources",
   "main": "index.js",
   "scripts": {
