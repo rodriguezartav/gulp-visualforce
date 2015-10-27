@@ -52,6 +52,7 @@
     "superagent": "^1.3.0",
     "underscore": "^1.7.0",
     "vinyl-source-stream": "~0.1.1",
-    "watchify": "~1.0.2"
+    "watchify": "~1.0.2",
+    "gulp-visualforce": "0.9.1"
   }
 }

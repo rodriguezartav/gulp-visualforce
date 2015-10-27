@@ -93,5 +93,10 @@ Use the plugins as I use them on gulp but using you own gulp tasks.
 
 The tecnology to transfer data between Salesforce and Javascript is a suit called Clay made up of several components including models, salesforce classes and this plugin.
 
+# Using on your project
+
+* Copy the example folder to your prefered location
+* Edit the .env files
+
 
 
