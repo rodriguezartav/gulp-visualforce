@@ -42,6 +42,8 @@ Deploy all files as a Static Resource and the Visualforce Page is upload.
 
 `gulp dist`
 
+User the --label to name your Visualforce Page 
+
 ## Note
 * All path transformations between local, semi-local and deploy are handled automatically.
 * When templates, Angular or React is used (paths in javascript ) you need to adjust the url. For this we include the `window._sf.staticResource` which is a variable with the Static Resource URL. This is injected in deploy, points to localhost otherwise.
